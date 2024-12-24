@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LivFin Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .login-box {
+      display: flex;
+      width: 900px;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-section {
+      flex: 1;
+      padding: 40px;
+      background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left-section h2 {
+      margin-top: 20px;
+    }
+
+    .right-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .right-section h2 {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #0052D4;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .captcha-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .captcha-box span {
+      background: #ddd;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="left-section">
+        <img src="fingerprint-icon.png" alt="Fingerprint" style="width: 100px;">
+        <h2>End to End Tech base Lending Ecosystem</h2>
+      </div>
+      <div class="right-section">
+        <h2>Login to your Account</h2>
+        <p><strong>Employee / External Login</strong></p>
+        <form>
+          <input type="text" placeholder="Mobile No." required>
+          <input type="password" placeholder="Password" required>
+          <div class="captcha-box">
+            <span>OwOho</span>
+            <a href="#">Try Another</a>
+          </div>
+          <input type="text" placeholder="Enter Captcha" required>
+          <button type="submit">LOGIN</button>
+        </form>
+        <footer>
+          <p>Copyright &copy; 2024 LivFin. All Rights Reserved.</p>
+          <a href="#">Contact us [Need Help]</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LivFin Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .login-box {
+      display: flex;
+      width: 900px;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-section {
+      flex: 1;
+      padding: 40px;
+      background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left-section h2 {
+      margin-top: 20px;
+    }
+
+    .right-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .right-section h2 {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #0052D4;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .captcha-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .captcha-box span {
+      background: #ddd;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <div class="left-section">
+        <img src="fingerprint-icon.png" alt="Fingerprint" style="width: 100px;">
+        <h2>End to End Tech base Lending Ecosystem</h2>
+      </div>
+      <div class="right-section">
+        <h2>Login to your Account</h2>
+        <p><strong>Employee / External Login</strong></p>
+        <form>
+          <input type="text" placeholder="Mobile No." required>
+          <input type="password" placeholder="Password" required>
+          <div class="captcha-box">
+            <span>OwOho</span>
+            <a href="#">Try Another</a>
+          </div>
+          <input type="text" placeholder="Enter Captcha" required>
+          <button type="submit">LOGIN</button>
+        </form>
+        <footer>
+          <p>Copyright &copy; 2024 LivFin. All Rights Reserved.</p>
+          <a href="#">Contact us [Need Help]</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
